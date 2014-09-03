@@ -1,0 +1,10 @@
+#!/Users/edaniya/Envs/walmart/bin/python
+
+try:
+    from polysh.main import main
+except ImportError, e:
+    print e
+    print 'To run an uninstalled copy of polysh,'
+    print 'launch polysh.py in the top directory'
+else:
+    main()
